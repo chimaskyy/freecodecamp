@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+
+  <h1 id="title">Apollo Survey</h1>
+ <p id="description">Thank you for taking the time to help us improve this platform</p>
+ <!-- Put a link later for the form-->
+ 
+ <form id="survey-form" action="#" target="_blank" method="post">
+ <label for="name-label" id="name=label">Name:<input id="name-label" type="text" required placeholder="Enter your name" name="name-label"/></label><br>
+<label for="email-label" id="email-label">Email:<input id="email-label" type="email" required placeholder="Enter your email" name="name-label" validate="on"/>
+</label><br>
+<label for="number-label" id="number-label">Phone Number: <input type="number" id="number-label" placeholder="Enter your number" pattern="[123-45-678]" min="10" max="15" name="number-label"/>
+  </label><br>
+<label for="dropdown">What do you love most about our train?
+<select id="dropdown">
+  <option></option>
+  <option>Airconditioner</option>
+  <option>The Crew</option>
+  <option>Entertainment</option> 
+  <option>Ease of booking</option> 
+</select>
+</label><br>
+<label>Would you recommend Apollo to a friend?</label><br> 
+ <input type="radio" id="definetly" name="recommendation"/>
+ <label for="definetly">Definetly</label><br>
+ <input type="radio" id="maybe" name="recommendation"/>
+ <label for="maybe">Maybe</label><br>
+ <input type="radio" id="not sure" name="recommendation"/>
+ <label for="maybe">Not Sure</label><br>
+ <label for="improvement">What would you like us to improve on(check all that apply)?</label><br>
+<input type="checkbox" id="take-off-time" value="take-off-time"/>
+ <label for="take-off-time">Take off time</label><br>
+ <input type="checkbox" id="check-in-time" value="check-in-time"/>
+ <label for="check-in-time">Check in time</label><br>
+ <input type="checkbox" id="coach-arrangement" value="coach-arrangement"/>
+ <label for="coach-arrangement">Coach arrangement</label><br>
+ <input type="checkbox" id="Ac-regulation" value="Ac-regulation"/>
+ <label for="Ac-regulation">Ac regulation </label><br>
+ <input type="checkbox" id="wifi-connection" value="wifi-connection"/>
+ <label for="wifi-connection">Wifi-connection </label><br>
+ <input type="checkbox" id="website-ux" value="website-ux"/>
+ <label for="website-ux">Website Ux </label><br>
+<label for="comment">Comment or suggestion?<br>
+<textarea id="comment" rows="3" cols="30" placeholder="Write your comment here...."></textarea>
+</label><br>
+<input type="submit" id="submit">
+</form>
+
+  </body>
+  </html>

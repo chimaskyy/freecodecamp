@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+#title{
+  text-align: center;
+  color: white;
+  margin: 20px;
+  
+} 
+#description{
+  text-align: center;
+  color: white;
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://wallpapercave.com/wp/mU8KjOC.jpg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  line-height: 1.4;
+  margin: auto;
+  font-family: Tahoma;
+  font-size: 16px;
+
+  }
+  
+  
+  #number{
+    margin: 4px;
+  }  
+  #survey-form{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    padding: 2.5em;
+    color: white;
+    border-radius: 2rem;
+    width: 500px;
+   
+
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=radio]{
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}  
+input[type=checkbox]{
+   padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+textarea{
+  height: 100px;
+  margin:20px 0;
+  width: 100%
+}
+input[type=submit]{
+  padding: 12px 20px;
+ margin: 10px 0;
+ border: 1px solid black;
+ width: 100%;
+ border-radius: 5px;
+ background-color: green;
+ color: white;
+}
+label{
+  margin-top: 2rem;
+}
